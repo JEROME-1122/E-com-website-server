@@ -1,0 +1,24 @@
+{
+  "name": "e-com-website-server",
+  "version": "1.0.0",
+  "description": "\"# E-com-website-server\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JEROME-1122/E-com-website-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JEROME-1122/E-com-website-server/issues"
+  },
+  "homepage": "https://github.com/JEROME-1122/E-com-website-server#readme",
+  "keywords": [],
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
