@@ -2,6 +2,8 @@ import express from "express";
 const app = express();
 import dotenv from "dotenv";
 import productRoutes from "./routes/productRoute.js";
+import connectToDatabase from "./config/db.js";
+connectToDatabase();
 dotenv.config();
 const PORT = process.env.PORT || 3000;
 
